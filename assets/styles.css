@@ -76,14 +76,15 @@ img {
     font-family: 'Poppins', sans-serif;
   }
   .subtitle {
-    font-size: 4vw;
+    margin-top: -3px;
+    font-size: 15px;
     padding: 2px 5px;
   }
   .container {
     margin-left: -8%;
   }
   h3 {
-    font-size: 5vw;
+    font-size: 20px;
   }
   .icon {
     margin: 0 5px;

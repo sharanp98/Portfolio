@@ -66,13 +66,27 @@ img {
     width: 100%;
     margin: 0 auto;
   }
+  .iam {
+    font-size: 6vw;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .name {
+    white-space: nowrap;
+    font-size: 7vw;
+    font-family: 'Poppins', sans-serif;
+  }
   .subtitle {
+    font-size: 4vw;
     padding: 2px 5px;
   }
   .container {
     margin-left: -8%;
   }
-  .social {
-    font-size: 2vw;
+  h3 {
+    font-size: 5vw;
+  }
+  .icon {
+    margin: 0 5px;
+    width: 10%;
   }
 }

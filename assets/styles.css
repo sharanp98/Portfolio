@@ -9,7 +9,7 @@ h2 {
 }
 
 .wrapper {
-  height: 100vh;
+  height: 90vh;
   width: 50%;
   position: relative;
   margin: 0 auto;
@@ -21,9 +21,7 @@ h2 {
   top: 50%;
   transform: translateY(-50%);
   padding: 5px;
-  box-shadow: 0 0 4px rgba(0,0,0,0.95);
-  /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5); */
-  /* border: 1px solid red; */
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.7);
 }
 
 .container {
@@ -73,9 +71,11 @@ img {
   width: 5%;
 }
 @media all and (max-width: 500px) {
+  .vertical-center {
+    top: 40%;
+  }
   .wrapper {
     width: 100%;
-    /* margin: 0 auto; */
   }
   .iam {
     font-size: 6vw;

@@ -69,7 +69,10 @@ img {
   top: -5vh;
   font-size: 1.2em;
 }
-
+a {
+  text-decoration: none;
+  color: #0077b7;
+}
 .footer-desc {
   font-size: 1.2em;
 }

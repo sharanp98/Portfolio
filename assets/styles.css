@@ -1,10 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(
-    to left,
-    #8e9eab,
-    #eef2f3
-  );
+  background: linear-gradient(to left, #8e9eab, #eef2f3);
 }
 h1,
 h2 {
@@ -20,7 +16,6 @@ h2 {
 }
 
 .vertical-center {
-  margin: auto;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -69,7 +64,20 @@ img {
   top: -2em;
 }
 
+.description {
+  position: relative;
+  top: -5vh;
+  font-size: 1.2em;
+}
+
+.footer-desc {
+  font-size: 1.2em;
+}
+
 #social {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top: -4vh;
   text-align: center;
   font-size: 1.5vw;
 }
@@ -79,14 +87,13 @@ img {
 }
 @media all and (max-width: 500px) {
   .vertical-center {
-    top: 30%;
+    top: 40%;
   }
   .wrapper {
     width: 100%;
   }
   .iam {
     font-size: 6vw;
-    font-family: 'Montserrat', sans-serif;
   }
   .name {
     white-space: nowrap;
@@ -96,8 +103,12 @@ img {
   .subtitle {
     font-size: 15px;
   }
-  h3 {
-    font-size: 20px;
+  .description {
+    top: -4vh;
+    font-size: 1.2em;
+  }
+  .footer-desc {
+    font-size: 2em;
   }
   .icon {
     margin: 0 5px;

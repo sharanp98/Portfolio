@@ -72,7 +72,7 @@ img {
 }
 @media all and (max-width: 500px) {
   .vertical-center {
-    top: 40%;
+    top: 30%;
   }
   .wrapper {
     width: 100%;
